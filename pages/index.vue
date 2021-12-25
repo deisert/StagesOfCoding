@@ -4,12 +4,11 @@
       <h1 class="text-4xl mt-8">Coding with Daniel </h1>
     </div>
 
-
     <div>
       <!--V-for every pic in pictures    -->
       <Picture></Picture>
     </div>
-
+    <StartScreen></StartScreen>
   </div>
 </template>
 
