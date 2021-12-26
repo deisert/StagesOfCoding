@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center">
-    <div class="card-container bg-gray-800 border-solid border border-gray-700 mt-8 rounded shadow-md"
+    <div class="card-container bg-gray-900 border-solid border border-indigo-900 mt-8 rounded shadow-md"
          :class="{blur: isBlurred}"
          @click="isBlurred = !isBlurred"
     >
@@ -10,8 +10,10 @@
         class="stage-image"
       />
       <div
-        class="card-bottom-container h-16 flex items-center justify-center text-white-87 text-lg font-light">
-        <span class="text-white-87">{{ bottomText }}</span>
+        class="card-bottom-container flex flex-col items-center justify-center">
+        <p class="text-white-87 pt-2">{{ bottomText }}</p>
+        <p class="font-thin text-center text-justify px-2 py-2 text-white-87">Hallo ich bin ein test span ich will
+          schauen was passiert wenn ich viel platz einnehme</p>
       </div>
 
     </div>
@@ -37,7 +39,8 @@ export default {
   },
 
   data: function () {
-    let isBlurred = true;
+    //TODO: isBlurred needs to be true, just for testing purposes
+    let isBlurred = false;
 
     return {
       isBlurred
