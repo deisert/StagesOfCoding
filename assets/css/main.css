@@ -14,11 +14,11 @@ body {
 
 /*Selection Color */
 ::-moz-selection {
-  background: darkcyan;
+  background: #312e81;
   color: #E0E0E0;
 }
 
 ::selection {
-  background: darkcyan;
+  background: #312e81;
   color: #E0E0E0;
 }

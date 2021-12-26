@@ -28,13 +28,15 @@ export default {
     prefetch: true,
     preload: true,
     families: {
-      Roboto: true,
       'Josefin+Sans': true,
-      Lato: [100, 300],
-      Raleway: {
-        wght: [100, 400],
-        ital: [100]
+      Roboto: {
+        wght: [100, 200, 300, 400, 500, 600, 700, 800],
+        ital: [100, 200, 400, 800]
       },
+      Inter: {
+        wght: [100, 200, 300, 400, 500, 600, 700, 800],
+        ital: [100, 200, 400, 800]
+      }
     }
   },
 

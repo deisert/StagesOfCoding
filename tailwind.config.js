@@ -9,7 +9,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'sans': ['Roboto', 'sans-serif']
+      'sans': ['Roboto', 'sans-serif'],
+      'inter': ['Inter']
     }
   },
   plugins: [],
