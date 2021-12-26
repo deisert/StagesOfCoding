@@ -3,3 +3,22 @@
 @tailwind utilities;
 @tailwind screens;
 
+body {
+  background-color: #121212;
+}
+
+/*Not fully saturated white for dark background*/
+.text-white-87 {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+/*Selection Color */
+::-moz-selection {
+  background: darkcyan;
+  color: #E0E0E0;
+}
+
+::selection {
+  background: darkcyan;
+  color: #E0E0E0;
+}
