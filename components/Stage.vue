@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2 class="text-center text-white-87 text-2xl">Stage {{ stageNumber }}</h2>
-    <StageCard :bottom-text=bottomText/>
+    <StageCard :bottom-text='bottomText'/>
   </div>
 </template>
 

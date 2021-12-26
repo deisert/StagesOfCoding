@@ -10,7 +10,7 @@
         class="stage-image"
       />
       <div
-        class="card-bottom-container h-16 flex items-center justify-center text-white-87 text-lg font-light border border-red-900">
+        class="card-bottom-container h-16 flex items-center justify-center text-white-87 text-lg font-light">
         <span class="text-white-87">{{ bottomText }}</span>
       </div>
 
