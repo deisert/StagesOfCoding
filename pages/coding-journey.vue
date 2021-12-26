@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper-container ma-0">
-    <div class="flex justify-center">
+    <div class="flex justify-center text-center">
       <h1 class="text-4xl text-white-87 my-8">Coding Stages with Daniel </h1>
     </div>
 
