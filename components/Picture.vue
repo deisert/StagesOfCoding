@@ -5,7 +5,7 @@
          @click="isBlurred = !isBlurred"
     >
       <img
-        src="https://www.test.de/file/image/55/44/db4542ec-53d8-4a33-a876-331d463627e5-web/5779659_Passwortmanager_t202002.jpg"
+        :src="imgSrc"
         alt=""
         class="picture-test mb-6"
       />
@@ -19,6 +19,13 @@
 <script>
 export default {
   name: "Pictures",
+
+  props: {
+    imgSrc: {
+      type: String,
+      default: "https://www.test.de/file/image/55/44/db4542ec-53d8-4a33-a876-331d463627e5-web/5779659_Passwortmanager_t202002.jpg",
+    }
+  },
 
   data: function () {
     let isBlurred = true;

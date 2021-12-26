@@ -5,8 +5,9 @@
     </div>
 
     <div>
-      <!--V-for every pic in pictures    -->
-      <Picture></Picture>
+      <!--V-for every stage in stages -->
+      <Stage stage-number="1"/>
+      <Stage stage-number="2"/>
     </div>
   </div>
 </template>
