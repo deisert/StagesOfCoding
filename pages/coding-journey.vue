@@ -1,7 +1,8 @@
 <template>
   <div class="wrapper-container ma-0">
-    <div class="flex justify-center text-center">
-      <h1 class="text-4xl text-white-87 my-8">Coding Stages with Daniel </h1>
+    <div class="headline-container">
+      <h1 class="text-center text-4xl text-white-87 my-8">Coding Stages with Daniel </h1>
+      <h4 class="text-white-87 text-center mb-8">Click on the images to take a look</h4>
     </div>
 
     <div>
