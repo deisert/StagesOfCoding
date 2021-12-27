@@ -1,19 +1,18 @@
 <template>
   <div class="flex justify-center">
-    <div class="card-container bg-gray-900 border-solid border border-indigo-900 mt-8 rounded shadow-md"
-         :class="{blur: isBlurred}"
+    <div class="card-container bg-gray-900 border-solid border border-indigo-900 mt-8 rounded shadow-md opacity-90"
+         :class="{'blur-lg': isBlurred}"
          @click="isBlurred = !isBlurred"
     >
       <img
-        :src="imgSrc"
+        :src=imgSrc
         alt=""
         class="stage-image"
       />
       <div
         class="card-bottom-container flex flex-col items-center justify-center">
-        <p class="text-white-87 pt-2">{{ bottomText }}</p>
-        <p class="font-thin text-center text-justify px-2 py-2 text-white-87">Hallo ich bin ein test span ich will
-          schauen was passiert wenn ich viel platz einnehme</p>
+        <p class="text-center text-white-87 text-xl px-2 pt-3">{{ cardHeadline }}</p>
+        <p class="font-thin text-center text-justify px-2 py-4 text-white-87">{{ cardText }}</p>
       </div>
 
     </div>
@@ -29,23 +28,27 @@ export default {
   props: {
     imgSrc: {
       type: String,
+      //required: true,
       default: "https://www.test.de/file/image/55/44/db4542ec-53d8-4a33-a876-331d463627e5-web/5779659_Passwortmanager_t202002.jpg",
     },
 
-    bottomText: {
+    cardHeadline: {
       type: String,
-      default: "Da ist was schiefgelaufen",
+      default: "Something went wrong.",
+    },
+
+    cardText: {
+      type: String,
+      default: "If you see this, i fucked up."
     }
   },
 
   data: function () {
-    //TODO: isBlurred needs to be true, just for testing purposes
-    let isBlurred = false;
+    let isBlurred = true;
 
     return {
       isBlurred
     }
-
   },
 
 }
@@ -54,7 +57,7 @@ export default {
 <style scoped>
 
 .card-container {
-  width: 13rem;
+  width: 18rem;
 //height: 12rem;
 }
 
