@@ -27,12 +27,32 @@
       <Stage stage-number="4"
              img-src="Stage_4.png"
              card-headline="Writing your first tests. "
-             card-text="Questioning life choices.. "/>
+             card-text="Questioning life choices.. \n what was I thinking.. "/>
 
       <Stage stage-number="5"
              img-src="Stage_5.png"
              card-headline="3 Tests failed. "
              card-text="Wait what? "/>
+
+      <Stage stage-number="6"
+             img-src="Stage_6.png"
+             card-headline="Resignation "
+             card-text="Tests failed again not sure why"/>
+
+      <Stage stage-number="7"
+             img-src="Stage_7.png"
+             card-headline="Handling Errors"
+             card-text="What is this error message.."/>
+
+      <Stage stage-number="8"
+             img-src="Stage_8.png"
+             card-headline="Built failed"
+             card-text="Just like the previous one. You're not sure why.."/>
+
+      <Stage stage-number="9"
+             img-src="Stage_9.png"
+             card-headline="WHY DID YOU FAIL?!"
+             card-text="Debugging"/>
 
     </div>
   </div>
