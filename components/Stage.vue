@@ -1,6 +1,6 @@
 <template>
-  <div class="mb-8">
-    <h2 class="text-center text-white-87 text-2xl">Stage {{ stageNumber }}</h2>
+  <div class="mb-16">
+    <h2 class="text-center text-white-87 text-2xl mb-4">Stage {{ stageNumber }}</h2>
     <StageCard :card-headline='cardHeadline' :card-text='cardText' :img-src='imgSrc'/>
   </div>
 </template>

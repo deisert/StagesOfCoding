@@ -3,7 +3,7 @@
     <div class="headline-container">
       <h1 class="text-center text-4xl text-white-87 font-bold my-8">Coding Stages with Daniel </h1>
       <h2 class="text-center text-3xl text-white-87 my-6">Basically <i>this</i> is a journey through your bachelor
-        thesis. </h2>
+        thesis. (In Pictures) </h2>
       <h4 class="text-white-87 font-thin text-center mb-8">Click on the images to take a look</h4>
     </div>
 
@@ -69,6 +69,8 @@
              img-src="Stage_12.png"
              card-headline="Final build completed"
              card-text="Bachelor thesis completed."/>
+
+      <h3 class="text-xl text-center text-indigo-900 mt-32 mb-16">Thank you for being part of my life. <3</h3>
 
     </div>
   </div>
