@@ -65,6 +65,11 @@
              card-headline="Dead inside stage"
              card-text="You stopped caring about everything (even yourself). You just want to pass. You deleted tests that failed."/>
 
+      <Stage stage-number="12"
+             img-src="Stage_12.png"
+             card-headline="Final build completed"
+             card-text="Bachelor thesis completed."/>
+
     </div>
   </div>
 </template>
