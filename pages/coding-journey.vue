@@ -32,7 +32,7 @@
 
       <Stage stage-number="5"
              img-src="Stage_5.png"
-             card-headline="3 Tests failed. "
+             card-headline="3 Tests failed.. "
              card-text="Wait what? "/>
 
       <Stage stage-number="6"
