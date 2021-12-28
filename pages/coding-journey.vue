@@ -47,7 +47,7 @@
 
       <Stage stage-number="8"
              img-src="Stage_8.png"
-             card-headline="Built failed"
+             card-headline="Build failed"
              card-text="Just like the previous one. You're not sure why.."/>
 
       <Stage stage-number="9"
