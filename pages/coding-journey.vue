@@ -21,13 +21,14 @@
 
       <Stage stage-number="3"
              img-src="Stage_3.png"
-             card-headline="You realize you've chosen the wrong javascript framework. "
+             card-headline="You realize you've chosen the wrong JavaScript framework. "
              card-text="That face when you realize, Nuxt was kinda unneccessary. "/>
 
       <Stage stage-number="4"
              img-src="Stage_4.png"
              card-headline="Writing your first tests. "
-             card-text="Questioning life choices.. \n what was I thinking.. "/>
+             card-text='Questioning life choices.. What was I thinking.. '/>
+
 
       <Stage stage-number="5"
              img-src="Stage_5.png"
@@ -37,7 +38,7 @@
       <Stage stage-number="6"
              img-src="Stage_6.png"
              card-headline="Resignation "
-             card-text="Tests failed again not sure why"/>
+             card-text="Tests failed again not sure why."/>
 
       <Stage stage-number="7"
              img-src="Stage_7.png"
@@ -52,7 +53,17 @@
       <Stage stage-number="9"
              img-src="Stage_9.png"
              card-headline="WHY DID YOU FAIL?!"
-             card-text="Debugging"/>
+             card-text="Debugging via console.logging almost everything."/>
+
+      <Stage stage-number="10"
+             img-src="Stage_10.png"
+             card-headline="Final resignation"
+             card-text="One week till deadline. You're taking a nap."/>
+
+      <Stage stage-number="11"
+             img-src="Stage_11.png"
+             card-headline="Dead inside stage"
+             card-text="You stopped caring about everything (even yourself). You just want to pass. You deleted tests that failed."/>
 
     </div>
   </div>
